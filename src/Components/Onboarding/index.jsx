@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import Button, { Button2 } from '../../Design/Button';
 import { Link } from 'react-router-dom';
+import LauncScreen from './LauncScreen';
 
 export default function Onboarding() {
     const images = [
@@ -40,6 +41,8 @@ export default function Onboarding() {
     };
 
     return (
+        <>
+       <LauncScreen />
         <div className=" carosel-cards">
 
             <Slider {...settings}>
@@ -59,6 +62,7 @@ export default function Onboarding() {
             </div>
             
         </div>
+        </>
 )}
 
    

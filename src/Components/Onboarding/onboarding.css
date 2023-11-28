@@ -67,24 +67,30 @@
     background-color: #7F3DFF;
     width:100%;
     height: 100vh;
-    position: relative;
     display: grid;
     place-items: center;
+    opacity: 1;
+    animation: launc 2s forwards;
 
     & h4{
+        position: relative;
         color:#fff;
         font-size: 56px;
         font-weight: 700;
-        text-align: center;
-        z-index: 5;
     }
 
     & img{
         position: absolute;
-        right: 130px;
-        top:265px;
+        bottom:-25px;
         mix-blend-mode:overlay;
-        filter: blur(16px)
-
+        filter: blur(16px);
     }
+}
+
+@keyframes launc{
+    to{
+        opacity: 0; 
+        display: none;
+    }
+
 }
