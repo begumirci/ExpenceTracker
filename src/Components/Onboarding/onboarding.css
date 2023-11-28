@@ -1,0 +1,90 @@
+.carosel-card{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:16px;
+    padding:5px;
+}
+
+
+.carosel-title {
+    padding-left:35px;
+    padding-right: 35px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.carosel-descrip {
+    padding-left:35px;
+    padding-right: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#91919F;
+    margin-bottom:12px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #EEE5FF;
+    font-size: 20px !important;
+}
+
+
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    color: #7F3DFF !important;
+}
+
+.btns{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:29px;
+}
+
+.btns button{
+    width:340px;
+    margin-left:20px;
+    margin-right: 12px;
+}
+
+.launc-screen{
+    background-color: #7F3DFF;
+    width:100%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+
+    & h4{
+        color:#fff;
+        font-size: 56px;
+        font-weight: 700;
+        text-align: center;
+        z-index: 5;
+    }
+
+    & img{
+        position: absolute;
+        right: 130px;
+        top:265px;
+        mix-blend-mode:overlay;
+        filter: blur(16px)
+
+    }
+}

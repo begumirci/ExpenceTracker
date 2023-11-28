@@ -1,0 +1,47 @@
+body{
+    font-family: inter;
+}
+
+.header{
+   padding:16px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.kare{
+    width:32px;
+    height: 32px;
+}
+
+.header img{
+    padding: 7.929px 4px 7.93px 4.003px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:7.93px;
+    padding-bottom:7.93px;
+}
+
+.header-h1{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color:#212325;
+    text-align: center;
+}
+
+.header-h2{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color:#fff;
+    text-align: center;
+}
+
+.container{
+    padding-right: 16px;
+    padding-left:16px;
+}

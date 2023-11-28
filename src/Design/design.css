@@ -1,0 +1,32 @@
+:root{
+    --violet:#7F3DFF;
+    --light-violet:#EEE5FF;
+    --white:#FCFCFC;
+}
+
+
+
+.btn{
+    padding:8px;
+    background-color: var(--violet);
+    border-radius: 16px;
+    color:var(--white);
+    border:none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width:100%;
+    margin-top:30px;
+}
+
+.btn2{
+    padding:8px;
+    border-radius: 16px;
+    border:none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width:100%;
+    background-color: var(--light-violet);
+    color: var(--violet);
+}
